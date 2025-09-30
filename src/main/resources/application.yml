@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: cloudStorage
+  datasource:
+    url: jdbc:mariadb://mariadb:3306/cloud_storage_db
+    username: ${DB_USER}
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.MariaDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  data:
+    redis:
+      host: redis
+      port: 6379
+  liquibase:
+    change-log: classpath:db/changelog/migrationsTables.yml
+
