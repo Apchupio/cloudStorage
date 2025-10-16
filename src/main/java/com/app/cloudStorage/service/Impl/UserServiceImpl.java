@@ -1,0 +1,89 @@
+package com.app.cloudStorage.service.Impl;
+
+import com.app.cloudStorage.exception.CustomAuthExceptions.IncorrectUserDataException;
+import com.app.cloudStorage.exception.CustomAuthExceptions.UserAlreadyExistException;
+import com.app.cloudStorage.exception.CustomAuthExceptions.UserNotFoundException;
+import com.app.cloudStorage.model.DTO.AuthDTO;
+import com.app.cloudStorage.model.entity.User;
+import com.app.cloudStorage.repository.UserRepository;
+import com.app.cloudStorage.service.UserService;
+import lombok.RequiredArgsConstructor;
+import org.springframework.security.crypto.password.PasswordEncoder;
+import org.springframework.stereotype.Service;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
+
+import java.util.Map;
+import java.util.stream.Collectors;
+
+@Service
+@RequiredArgsConstructor
+public class UserServiceImpl implements UserService {
+
+    private final UserRepository userRepository;
+    private final PasswordEncoder passwordEncoder;
+
+    @Override
+    public boolean userAlreadyExist(AuthDTO authDTO) {
+        if (userRepository.existsByLogin(authDTO.login())) {
+            Map<String, String> exceptionsFields = getFields(authDTO);
+            throw new UserAlreadyExistException(exceptionsFields);
+        } else {
+            return true;
+        }
+    }
+
+    @Override
+    public boolean isExist(AuthDTO authDTO) {
+        if (userRepository.existsByLogin(authDTO.login())) {
+            return true;
+        } else {
+            Map<String, String> exceptionsFields = getFields(authDTO);
+            throw new UserNotFoundException(exceptionsFields);
+        }
+    }
+
+    @Override
+    public boolean save(User user) {
+        User checkUser = userRepository.save(user);
+        return checkUser.getLogin().equals(user.getLogin());
+    }
+
+    @Override
+    public User convertToUser(AuthDTO authDTO){
+        return User.builder()
+                .login(authDTO.login())
+                .password(passwordEncoder.encode(authDTO.password()))
+                .build();
+    }
+
+    @Override
+    public User getUserByLogin(AuthDTO authDTO) {
+        return userRepository.findByLogin(authDTO.login()).orElseThrow(() -> {
+            Map<String, String> exceptionsFields = getFields(authDTO);
+            return new UserNotFoundException(exceptionsFields);
+        });
+    }
+
+    public Map<String, String> getFields(AuthDTO authDTO){
+        return Map.of(
+                "login", authDTO.login(),
+                "password", authDTO.password()
+        );
+    }
+
+
+    public boolean userDataCorrect(AuthDTO authDTO, BindingResult bindingResult) {
+        if (bindingResult.hasErrors()) {
+            Map<String, String> errors = bindingResult.getFieldErrors().stream()
+                    .collect(Collectors.toMap(
+                            FieldError::getField,
+                            FieldError::getDefaultMessage
+                    ));
+            Map<String, String> fields = getFields(authDTO);
+            throw  new IncorrectUserDataException(errors, fields);
+        } else {
+            return true;
+        }
+    }
+}

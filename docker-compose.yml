@@ -1,10 +1,24 @@
-version: "3.8"
-
 services:
-  app:
-    build:
-      context: .
-      dockerfile: dockerfile
+  db:
+    image: mariadb:latest
+    container_name: cloudStorage_dataBase
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: cloud_storage_db
+      MYSQL_USER: main
+      MYSQL_PASSWORD: 12345qwert
     ports:
-      - "8080:8080"
-    container_name: cloudStorage
+      - "3306:3306"
+    networks:
+      - my_network
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+    networks:
+      - my_network
+
+
+networks:
+  my_network:
