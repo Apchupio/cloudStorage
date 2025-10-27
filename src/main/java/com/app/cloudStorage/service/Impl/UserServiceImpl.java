@@ -7,7 +7,10 @@ import com.app.cloudStorage.model.DTO.AuthDTO;
 import com.app.cloudStorage.model.entity.User;
 import com.app.cloudStorage.repository.UserRepository;
 import com.app.cloudStorage.service.UserService;
+import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
@@ -44,9 +47,10 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public boolean save(User user) {
-        User checkUser = userRepository.save(user);
-        return checkUser.getLogin().equals(user.getLogin());
+    @Transactional
+    public void save(AuthDTO authDTO) {
+        User user = convertToUser(authDTO);
+        userRepository.save(user);
     }
 
     @Override
@@ -85,5 +89,10 @@ public class UserServiceImpl implements UserService {
         } else {
             return true;
         }
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        return userRepository.findByLogin(username).orElseThrow();
     }
 }

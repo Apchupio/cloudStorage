@@ -4,30 +4,24 @@ import com.app.cloudStorage.model.DTO.AuthDTO;
 import com.app.cloudStorage.service.Auth.SignUpService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/api/cloud-storage/sign-up")
+@RequestMapping("/api/cloud-storage/v1/sign-up")
 @RequiredArgsConstructor
 public class SignUpController {
 
     private final SignUpService signUpService;
 
-    @GetMapping("/page")
-    public String signUpPage() {
-        return "signUp";
-    }
-
     @PostMapping("/auth")
-    public String registration(@Valid AuthDTO authDTO, BindingResult bindingResult) {
-        if (signUpService.registerUser(authDTO, bindingResult)) {
-            return "redirect:/api/cloud-storage/sign-in";
-        } else {
-            return "errorPage";
-        }
+    public ResponseEntity<AuthDTO> registrationUser(@RequestBody @Valid AuthDTO authDTO, BindingResult bindingResult) {
+        signUpService.registerUser(authDTO, bindingResult);
+        return ResponseEntity.status(HttpStatus.CREATED).body(authDTO);
     }
 }
