@@ -1,7 +1,6 @@
 package com.app.cloudStorage.authTest;
 
-import com.app.cloudStorage.model.DTO.AuthDTO;
-import com.app.cloudStorage.service.Impl.UserServiceImpl;
+import com.app.cloudStorage.model.dto.AuthDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -10,7 +9,6 @@ import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMock
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.mock.web.MockHttpSession;
-import org.springframework.session.SessionRepository;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.web.servlet.MockMvc;
 
@@ -123,8 +121,5 @@ public class SignInTests {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(json))
                 .andExpect(status().isBadRequest());
-
     }
-
-
 }

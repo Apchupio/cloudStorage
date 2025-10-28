@@ -1,6 +1,6 @@
-package com.app.cloudStorage.model.DTO;
+package com.app.cloudStorage.model.dto;
 
-import com.app.cloudStorage.Annotation.PasswordMatches;
+import com.app.cloudStorage.annotation.PasswordMatches;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 

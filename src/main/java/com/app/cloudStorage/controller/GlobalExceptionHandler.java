@@ -1,12 +1,11 @@
 package com.app.cloudStorage.controller;
 
-import com.app.cloudStorage.exception.CustomAuthExceptions.IncorrectUserDataException;
-import com.app.cloudStorage.exception.CustomAuthExceptions.UserAlreadyExistException;
-import com.app.cloudStorage.exception.CustomAuthExceptions.UserNotFoundException;
-import com.app.cloudStorage.exception.CustomAuthExceptions.WrongPasswordException;
+import com.app.cloudStorage.exception.customAuthExceptions.IncorrectUserDataException;
+import com.app.cloudStorage.exception.customAuthExceptions.UserAlreadyExistException;
+import com.app.cloudStorage.exception.customAuthExceptions.UserNotFoundException;
+import com.app.cloudStorage.exception.customAuthExceptions.WrongPasswordException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 

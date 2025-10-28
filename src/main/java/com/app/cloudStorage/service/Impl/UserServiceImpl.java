@@ -1,9 +1,9 @@
 package com.app.cloudStorage.service.Impl;
 
-import com.app.cloudStorage.exception.CustomAuthExceptions.IncorrectUserDataException;
-import com.app.cloudStorage.exception.CustomAuthExceptions.UserAlreadyExistException;
-import com.app.cloudStorage.exception.CustomAuthExceptions.UserNotFoundException;
-import com.app.cloudStorage.model.DTO.AuthDTO;
+import com.app.cloudStorage.exception.customAuthExceptions.IncorrectUserDataException;
+import com.app.cloudStorage.exception.customAuthExceptions.UserAlreadyExistException;
+import com.app.cloudStorage.exception.customAuthExceptions.UserNotFoundException;
+import com.app.cloudStorage.model.dto.AuthDTO;
 import com.app.cloudStorage.model.entity.User;
 import com.app.cloudStorage.repository.UserRepository;
 import com.app.cloudStorage.service.UserService;

@@ -1,4 +1,4 @@
-package com.app.cloudStorage.Annotation;
+package com.app.cloudStorage.annotation;
 
 import com.app.cloudStorage.service.validator.PasswordMatchesValidator;
 import jakarta.validation.Constraint;

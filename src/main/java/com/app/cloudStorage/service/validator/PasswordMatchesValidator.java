@@ -1,7 +1,7 @@
 package com.app.cloudStorage.service.validator;
 
-import com.app.cloudStorage.Annotation.PasswordMatches;
-import com.app.cloudStorage.model.DTO.AuthDTO;
+import com.app.cloudStorage.annotation.PasswordMatches;
+import com.app.cloudStorage.model.dto.AuthDTO;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

@@ -1,6 +1,4 @@
-package com.app.cloudStorage.exception.CustomAuthExceptions;
-
-import com.app.cloudStorage.exception.CustomAuthExceptions.BaseAuthException;
+package com.app.cloudStorage.exception.customAuthExceptions;
 
 import java.util.Map;
 

@@ -1,7 +1,7 @@
 package com.app.cloudStorage.controller.auth;
 
-import com.app.cloudStorage.model.DTO.AuthDTO;
-import com.app.cloudStorage.service.Auth.SignUpService;
+import com.app.cloudStorage.model.dto.AuthDTO;
+import com.app.cloudStorage.service.auth.SignUpService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
