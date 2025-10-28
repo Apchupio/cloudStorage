@@ -19,10 +19,8 @@ spring:
   logging:
     level:
       org.springframework.security: DEBUG
-  springdoc:
-    api-docs:
-      path: /v3/api-docs
-    swagger-ui:
-      path: /swagger-ui
-
-
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui

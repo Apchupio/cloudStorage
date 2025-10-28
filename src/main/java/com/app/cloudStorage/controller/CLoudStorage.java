@@ -8,5 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/api/cloud_storage")
 public class CLoudStorage {
 
-
+    @GetMapping
+    public String test() {
+        return "Swagger works";
+    }
 }
