@@ -3,7 +3,7 @@ package com.app.cloudStorage.service.Impl;
 import com.app.cloudStorage.exception.customAuthExceptions.IncorrectUserDataException;
 import com.app.cloudStorage.exception.customAuthExceptions.UserAlreadyExistException;
 import com.app.cloudStorage.exception.customAuthExceptions.UserNotFoundException;
-import com.app.cloudStorage.model.dto.AuthDTO;
+import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.app.cloudStorage.model.entity.User;
 import com.app.cloudStorage.repository.UserRepository;
 import com.app.cloudStorage.service.UserService;
@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 
+import java.util.Collections;
 import java.util.Map;
 import java.util.stream.Collectors;
 
@@ -76,7 +77,6 @@ public class UserServiceImpl implements UserService {
         );
     }
 
-
     public boolean userDataCorrect(AuthDTO authDTO, BindingResult bindingResult) {
         if (bindingResult.hasErrors()) {
             Map<String, String> errors = bindingResult.getFieldErrors().stream()
@@ -93,6 +93,11 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return userRepository.findByLogin(username).orElseThrow();
+        User user = userRepository.findByLogin(username).orElseThrow();
+        return org.springframework.security.core.userdetails.User
+                .withUsername(user.getLogin())
+                .password(user.getPassword())
+                .authorities(Collections.emptyList())
+                .build();
     }
 }

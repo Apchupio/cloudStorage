@@ -1,9 +1,8 @@
-package com.app.cloudStorage.model.dto;
+package com.app.cloudStorage.model.dto.auth;
 
 import com.app.cloudStorage.annotation.PasswordMatches;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
-
 
 @PasswordMatches
 public record AuthDTO(
@@ -14,6 +13,7 @@ public record AuthDTO(
         @NotBlank(message = "Пароль не должен быть пустым")
         @Size(min = 5, max = 25, message = "Пароль должен быть размером от 5 до 25 символов")
         String password,
-        String matchPassword
+        String  matchPassword
+
 ) {
 }

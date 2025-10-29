@@ -3,7 +3,6 @@ package com.app.cloudStorage.configuration;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Info;
 import io.swagger.v3.oas.annotations.servers.Server;
-import io.swagger.v3.oas.annotations.servers.Servers;
 
 @OpenAPIDefinition(
         info = @Info(
@@ -13,5 +12,5 @@ import io.swagger.v3.oas.annotations.servers.Servers;
         ),
         servers = @Server(url = "http://localhost:8080")
 )
-public class openAPiConfig {
+public class OpenAPiConfig {
 }

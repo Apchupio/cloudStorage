@@ -1,6 +1,6 @@
 package com.app.cloudStorage.authTest;
 
-import com.app.cloudStorage.model.dto.AuthDTO;
+import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

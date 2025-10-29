@@ -1,6 +1,6 @@
 package com.app.cloudStorage.service.auth;
 
-import com.app.cloudStorage.model.dto.AuthDTO;
+import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.app.cloudStorage.service.Impl.UserServiceImpl;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
