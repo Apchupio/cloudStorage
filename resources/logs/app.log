@@ -1,0 +1,10 @@
+2025-10-31 21:32:09 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 12732 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 21:32:09 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 21:32:09 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 21:32:17 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 8.817 seconds (process running for 9.692)
+2025-10-31 21:32:30 [http-nio-8080-exec-2] DEBUG c.a.c.c.GlobalExceptionHandler - Ошибка регистрации - null {password=string, login=use}
+2025-10-31 21:38:34 - Starting CloudStorageApplication using Java 21.0.8 with PID 16388 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 21:38:34 - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 21:38:34 - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 21:38:42 - Started CloudStorageApplication in 8.212 seconds (process running for 9.089)
+2025-10-31 21:38:58 - Ошибка регистрации - null {login=use, password=string}

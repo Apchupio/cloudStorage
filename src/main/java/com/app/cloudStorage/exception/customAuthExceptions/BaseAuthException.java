@@ -1,7 +1,10 @@
 package com.app.cloudStorage.exception.customAuthExceptions;
 
+import lombok.Getter;
+
 import java.util.Map;
 
+@Getter
 public class BaseAuthException extends RuntimeException{
 
     private Map<String, String> fields;

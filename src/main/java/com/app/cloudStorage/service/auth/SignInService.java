@@ -7,6 +7,7 @@ import com.app.cloudStorage.service.Impl.UserServiceImpl;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Map;
 
+@Slf4j
 @Service
 @RequiredArgsConstructor
 public class SignInService {
@@ -25,7 +27,9 @@ public class SignInService {
 
     public boolean signIn(AuthDTO authDTO, HttpServletRequest request, HttpServletResponse response) {
         User user = userService.getUserByLogin(authDTO);
+        log.info("Запрос дошел2");
         if (passwordEncoder.matches(authDTO.password(), user.getPassword())) {
+            log.info("Запрос дошел3");
             authenticationService.authenticate(user, request, response);
             return true;
         } else {
