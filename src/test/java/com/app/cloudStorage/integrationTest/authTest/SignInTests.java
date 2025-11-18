@@ -1,4 +1,4 @@
-package com.app.cloudStorage.authTest;
+package com.app.cloudStorage.integrationTest.authTest;
 
 import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.fasterxml.jackson.databind.ObjectMapper;

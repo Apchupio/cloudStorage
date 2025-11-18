@@ -1,5 +1,6 @@
 package com.app.cloudStorage.service.auth;
 
+import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.app.cloudStorage.model.entity.User;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -21,17 +22,14 @@ public class AuthenticationService {
     private final AuthenticationManager authenticationManager;
     private final SecurityContextHolderStrategy securityContextHolder;
     private final SecurityContextRepository securityContextRepository;
-
-    public Authentication authenticate(User user, HttpServletRequest request, HttpServletResponse response) {
+    public Authentication authenticate(AuthDTO authDTO, HttpServletRequest request, HttpServletResponse response) {
         Authentication authentication  = authenticationManager.authenticate(
-                new UsernamePasswordAuthenticationToken(user.getLogin(), user.getPassword()));
-        log.info("Запрос дошел4");
+                new UsernamePasswordAuthenticationToken(authDTO.login(), authDTO.password()));
         SecurityContext context = securityContextHolder.createEmptyContext();
         context.setAuthentication(authentication);
         securityContextHolder.setContext(context);
-        log.info("Запрос дошел5");
         securityContextRepository.saveContext(context, request, response);
-        log.info("Пользователь с именем - " + authentication.getName() + " успешно аутентифицирован");
+        log.info("Пользователь с именем - " + context.getAuthentication().getName() + " успешно аутентифицирован");
         return authentication;
     }
 }

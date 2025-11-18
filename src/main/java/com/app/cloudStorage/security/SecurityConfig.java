@@ -32,17 +32,13 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers(
                                 "/api/cloud-storage/v1/sign-up/auth",
-                                "/api/cloud-storage/v1/sign-in/auth").permitAll()
+                                "/api/cloud-storage/v1/sign-in/auth",
+                                "/api/cloud-storage/check-session").permitAll()
                         .requestMatchers("/swagger-ui/**", "/swagger-ui/index.html", "/v3/api-docs",
                                 "/swagger-resources/**", "/webjars/**", "/v3/api-docs/swagger-config").permitAll()
                         .anyRequest().authenticated()
                 );
         return http.build();
-    }
-
-    @Bean
-    public CorsConfig corsConfig() {
-        return new CorsConfig();
     }
 
     @Bean

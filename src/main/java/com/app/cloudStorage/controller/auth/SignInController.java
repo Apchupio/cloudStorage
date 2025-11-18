@@ -36,7 +36,7 @@ public class SignInController {
                                                  HttpServletResponse response) {
         log.info("Запрос дошел");
         signInService.signIn(authDTO, request, response);
-        log.info("Успешная регистрация пользователя с login - " + authDTO.login());
+        log.info("Успешная авторизация пользователя с login - " + authDTO.login());
         return ResponseEntity.status(HttpStatus.OK).body(authDTO);
     }
 }

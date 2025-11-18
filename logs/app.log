@@ -4,3 +4,189 @@
 2025-10-31 21:57:45 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
 2025-10-31 21:57:52 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 7.746 seconds (process running for 8.333)
 2025-10-31 21:58:11 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 21:59:22 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 15540 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 21:59:22 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 21:59:22 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 21:59:29 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 7.573 seconds (process running for 8.207)
+2025-10-31 21:59:38 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 21:59:38 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел2
+2025-10-31 21:59:38 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:04:16 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 18132 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 22:04:16 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 22:04:16 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 22:04:23 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 7.962 seconds (process running for 8.608)
+2025-10-31 22:04:27 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 22:04:27 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел2userTest
+2025-10-31 22:04:28 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:08:07 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 14968 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 22:08:07 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 22:08:07 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 22:08:14 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 7.703 seconds (process running for 8.359)
+2025-10-31 22:08:19 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 22:08:19 [http-nio-8080-exec-2] INFO  c.a.c.service.auth.SignInService - Запрос дошел2
+2025-10-31 22:08:19 [http-nio-8080-exec-2] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:08:43 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 16032 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 22:08:43 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 22:08:43 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 22:08:52 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 9.324 seconds (process running for 10.665)
+2025-10-31 22:08:56 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 22:08:56 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел2
+2025-10-31 22:08:56 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:17:17 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 15116 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 22:17:17 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 22:17:17 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 22:17:24 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 7.707 seconds (process running for 8.479)
+2025-10-31 22:17:27 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел2
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Запрос дошел4 userTest
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Запрос дошел5
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - userTest успешно аутентифицирован
+2025-10-31 22:17:28 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Успешная регистрация пользователя с login - userTest
+2025-10-31 22:19:16 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 5440 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-10-31 22:19:16 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-10-31 22:19:16 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-31 22:19:24 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 8.572 seconds (process running for 9.255)
+2025-10-31 22:19:27 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-10-31 22:19:27 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел2
+2025-10-31 22:19:28 [http-nio-8080-exec-1] INFO  c.a.c.service.auth.SignInService - Запрос дошел3
+2025-10-31 22:19:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Запрос дошел4 userTest
+2025-10-31 22:19:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Запрос дошел5
+2025-10-31 22:19:28 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - userTest успешно аутентифицирован
+2025-10-31 22:19:28 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Успешная регистрация пользователя с login - userTest
+2025-11-10 19:47:23 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 11580 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 19:47:23 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 19:47:23 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 19:47:28 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.172 seconds (process running for 6.808)
+2025-11-10 19:48:36 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 11632 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 19:48:36 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 19:48:36 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 19:48:41 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.657 seconds (process running for 6.132)
+2025-11-10 19:52:56 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 2400 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 19:52:56 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 19:52:56 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 19:53:01 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.605 seconds (process running for 6.032)
+2025-11-10 19:56:45 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 3720 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 19:56:45 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 19:56:45 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 19:56:51 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.591 seconds (process running for 6.207)
+2025-11-10 19:59:49 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 16288 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 19:59:49 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 19:59:49 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 19:59:54 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.509 seconds (process running for 5.934)
+2025-11-10 20:11:00 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 16572 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-10 20:11:00 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-10 20:11:00 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-10 20:11:05 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.848 seconds (process running for 6.298)
+2025-11-10 20:11:41 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignUpController - Успешная авторизация пользователя с login - sapog228
+2025-11-10 20:12:44 [http-nio-8080-exec-5] INFO  c.a.c.c.auth.SignUpController - Успешная авторизация пользователя с login - sapog229
+2025-11-11 19:21:18 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 3372 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-11 19:21:18 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-11 19:21:18 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-11 19:21:24 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.55 seconds (process running for 7.043)
+2025-11-11 19:21:37 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignUpController - Успешная авторизация пользователя с login - arwen
+2025-11-11 19:22:13 [http-nio-8080-exec-3] DEBUG c.a.c.c.GlobalExceptionHandler - Ошибка регистрации - Пользователь уже существует {login=arwen, password=arwen}
+2025-11-11 19:23:19 [http-nio-8080-exec-7] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-11 19:23:19 [http-nio-8080-exec-7] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-11 19:23:19 [http-nio-8080-exec-7] INFO  c.a.c.c.auth.SignInController - Успешная регистрация пользователя с login - arwen
+2025-11-11 19:40:49 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-11 19:40:49 [http-nio-8080-exec-4] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-11 19:40:49 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Успешная регистрация пользователя с login - arwen
+2025-11-11 20:06:03 [http-nio-8080-exec-10] INFO  c.a.c.c.auth.SignUpController - Успешная авторизация пользователя с login - arwenks
+2025-11-11 20:06:09 [http-nio-8080-exec-5] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-11 20:06:10 [http-nio-8080-exec-5] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwenks успешно аутентифицирован
+2025-11-11 20:06:10 [http-nio-8080-exec-5] INFO  c.a.c.c.auth.SignInController - Успешная регистрация пользователя с login - arwenks
+2025-11-12 19:22:13 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 14748 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 19:22:13 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 19:22:13 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 19:22:19 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.967 seconds (process running for 7.887)
+2025-11-12 20:00:54 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 16376 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 20:00:54 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 20:00:54 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:01:01 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.835 seconds (process running for 7.292)
+2025-11-12 20:05:56 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:05:56 [http-nio-8080-exec-2] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:05:56 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 20:06:57 [http-nio-8080-exec-8] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:06:57 [http-nio-8080-exec-8] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:06:57 [http-nio-8080-exec-8] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 20:17:24 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 5740 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 20:17:24 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 20:17:24 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:17:30 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.026 seconds (process running for 6.464)
+2025-11-12 20:17:41 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:17:41 [http-nio-8080-exec-2] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:17:41 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 20:25:20 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 15212 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 20:25:20 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 20:25:20 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:25:25 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.55 seconds (process running for 5.979)
+2025-11-12 20:29:19 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:29:19 [http-nio-8080-exec-1] DEBUG c.a.c.c.GlobalExceptionHandler - Ошибка авторизации - Пользователь с таким логином не сущетсвует {password=, login=}
+2025-11-12 20:29:23 [http-nio-8080-exec-3] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:29:23 [http-nio-8080-exec-3] DEBUG c.a.c.c.GlobalExceptionHandler - Ошибка авторизации - Пользователь с таким логином не сущетсвует {password=, login=}
+2025-11-12 20:29:45 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:29:45 [http-nio-8080-exec-4] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:29:45 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 20:40:07 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 12760 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 20:40:07 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 20:40:07 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:40:13 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.853 seconds (process running for 6.338)
+2025-11-12 20:40:38 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:40:38 [http-nio-8080-exec-2] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:40:38 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 20:40:57 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 13392 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 20:40:57 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 20:40:57 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 20:41:02 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.27 seconds (process running for 5.678)
+2025-11-12 20:41:08 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 20:41:09 [http-nio-8080-exec-1] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 20:41:09 [http-nio-8080-exec-1] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-12 21:01:15 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 11776 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-12 21:01:15 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-12 21:01:15 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-12 21:01:21 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.788 seconds (process running for 6.246)
+2025-11-12 21:01:30 [http-nio-8080-exec-5] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-12 21:01:31 [http-nio-8080-exec-5] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-12 21:01:31 [http-nio-8080-exec-5] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-12 21:01:31 [http-nio-8080-exec-5] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-17 20:15:00 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 3684 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-17 20:15:00 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-17 20:15:00 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 20:15:06 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 6.69 seconds (process running for 7.413)
+2025-11-17 20:15:10 [http-nio-8080-exec-9] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-17 20:15:10 [http-nio-8080-exec-9] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-17 20:15:10 [http-nio-8080-exec-9] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-17 20:15:10 [http-nio-8080-exec-9] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-17 20:18:45 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 5992 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-17 20:18:45 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-17 20:18:45 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 20:18:50 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.572 seconds (process running for 6.001)
+2025-11-17 20:19:19 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-17 20:19:19 [http-nio-8080-exec-4] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-17 20:19:19 [http-nio-8080-exec-4] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-17 20:19:19 [http-nio-8080-exec-4] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-17 20:44:26 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 9108 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-17 20:44:26 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-17 20:44:26 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 20:44:32 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.469 seconds (process running for 5.884)
+2025-11-17 20:44:37 [http-nio-8080-exec-6] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-17 20:44:38 [http-nio-8080-exec-6] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-17 20:44:38 [http-nio-8080-exec-6] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-17 20:44:38 [http-nio-8080-exec-6] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-17 20:52:09 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 7156 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-17 20:52:09 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-17 20:52:09 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 20:52:14 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.499 seconds (process running for 5.938)
+2025-11-17 20:52:17 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-17 20:52:17 [http-nio-8080-exec-2] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-17 20:52:17 [http-nio-8080-exec-2] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-17 20:52:17 [http-nio-8080-exec-2] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen
+2025-11-17 20:54:11 [main] INFO  c.a.c.CloudStorageApplication - Starting CloudStorageApplication using Java 21.0.8 with PID 13848 (C:\Users\opop\Desktop\cloudStorage\build\classes\java\main started by opop in C:\Users\opop\Desktop\cloudStorage)
+2025-11-17 20:54:11 [main] DEBUG c.a.c.CloudStorageApplication - Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-17 20:54:11 [main] INFO  c.a.c.CloudStorageApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-17 20:54:16 [main] INFO  c.a.c.CloudStorageApplication - Started CloudStorageApplication in 5.284 seconds (process running for 5.693)
+2025-11-17 20:54:25 [http-nio-8080-exec-3] INFO  c.a.c.c.auth.SignInController - Запрос дошел
+2025-11-17 20:54:26 [http-nio-8080-exec-3] INFO  c.a.c.s.auth.AuthenticationService - Пользователь с именем - arwen успешно аутентифицирован
+2025-11-17 20:54:26 [http-nio-8080-exec-3] INFO  c.a.c.service.auth.SignInService - UsernamePasswordAuthenticationToken [Principal=org.springframework.security.core.userdetails.User [Username=arwen, Password=[PROTECTED], Enabled=true, AccountNonExpired=true, CredentialsNonExpired=true, AccountNonLocked=true, Granted Authorities=[]], Credentials=[PROTECTED], Authenticated=true, Details=null, Granted Authorities=[]]
+2025-11-17 20:54:26 [http-nio-8080-exec-3] INFO  c.a.c.c.auth.SignInController - Успешная авторизация пользователя с login - arwen

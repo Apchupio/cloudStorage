@@ -37,7 +37,7 @@ public class SignUpController {
     @PostMapping("/auth")
     public ResponseEntity<AuthDTO> registrationUser(@RequestBody @Valid AuthDTO authDTO, BindingResult bindingResult) {
         signUpService.registerUser(authDTO, bindingResult);
-        log.info("Успешная авторизация пользователя с login - " + authDTO.login());
+        log.info("Успешная регистрация пользователя с login - " + authDTO.login());
         return ResponseEntity.status(HttpStatus.CREATED).body(authDTO);
     }
 }

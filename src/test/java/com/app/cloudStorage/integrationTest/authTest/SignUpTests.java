@@ -1,4 +1,4 @@
-package com.app.cloudStorage.authTest;
+package com.app.cloudStorage.integrationTest.authTest;
 
 import com.app.cloudStorage.model.dto.auth.AuthDTO;
 import com.app.cloudStorage.model.entity.User;
